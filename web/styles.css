@@ -1,0 +1,236 @@
+#logo {
+    content: url("/logosoftware.png"); /* Ruta del logo */
+    display: inline-block;
+    width: 200px; /* Ajusta el ancho según tu logo */
+    height: auto; /* Mantiene la proporción de aspecto */
+    margin: 10px 0; /* Agrega margen superior e inferior */
+}
+
+#logo {
+    margin: 0;
+}
+
+/* Estilo general */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #bebebe;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #5cb85c;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+input[type="submit"]:hover {
+    background-color: #4cae4c;
+}
+
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+.filtros {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.filtros label {
+    margin-right: 10px;
+}
+
+.filtros input,
+.filtros select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.filtros button {
+    padding: 8px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.tabla-clientes,
+.tabla-empleados,
+.tabla-detalle-pago {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabla-clientes th,
+.tabla-empleados th,
+.tabla-detalle-pago th {
+    background-color: #333;
+    color: white;
+    padding: 8px;
+    text-align: left;
+}
+
+.tabla-clientes td,
+.tabla-empleados td,
+.tabla-detalle-pago td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.tabla-clientes tr:nth-child(even),
+.tabla-empleados tr:nth-child(even),
+.tabla-detalle-pago tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.acciones {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.acciones a {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.acciones a:hover {
+    background-color: #0056b3;
+}
+
+.total-pago {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+/* Animaciones (ejemplo básico) */
+.fila {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.fila label {
+    width: 120px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.fila input,
+.fila select {
+    flex-grow: 1;
+}
+
+/* Animación de aparición gradual */
+.animacion-entrada {
+    animation: entrada 1s ease-in-out forwards;
+}
+
+@keyframes entrada {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+      
